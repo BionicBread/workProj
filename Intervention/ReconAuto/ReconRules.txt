@@ -1,0 +1,10 @@
+Reconilliation Rules
+1. Only look at SFMC records where Source system = DWH
+2. Only look at DWH records which were Valid the previous day
+3. The remaining fields should EXACTLY match the SFMC suppression file RETURN
+4. Anomalies should be flagged
+
+All files must be date stamped to ensure we are comparing data from the same 24 hour period - midnight to midnight the previous day
+
+dummy data:
+The IN file contains an mismatch at entry 1, customField, set to TRUE

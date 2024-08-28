@@ -1,0 +1,16 @@
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\bin\Debug\net6.0\ReconAuto.exe
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\bin\Debug\net6.0\ReconAuto.deps.json
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\bin\Debug\net6.0\ReconAuto.runtimeconfig.json
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\bin\Debug\net6.0\ReconAuto.dll
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\bin\Debug\net6.0\ReconAuto.pdb
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ReconAuto.csproj.ResolveComReference.cache
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ReconAuto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ReconAuto.AssemblyInfoInputs.cache
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ReconAuto.AssemblyInfo.cs
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ReconAuto.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ReconAuto.dll
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\refint\ReconAuto.dll
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ReconAuto.pdb
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ReconAuto.genruntimeconfig.cache
+C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\obj\Debug\net6.0\ref\ReconAuto.dll
