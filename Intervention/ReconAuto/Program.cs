@@ -12,9 +12,18 @@ namespace ReconAuto
         static void Main(string[] args)
         {
             // init classes
-            ListMethod listMethod = new ListMethod();
-            Formatter converter = new Formatter();
-            Comparison comparator = new Comparison();
+            ListMethod listMethod = new();
+            Formatter converter = new();
+            Comparison comparator = new();
+
+            // Set file flags
+            Console.WriteLine("input file source: SFMC, Neccton or UPAM");
+            SetFileFlags input = new (Console.ReadLine());
+            
+            Console.WriteLine("input 2nd file source: SFMC, Neccton or UPAM");
+            SetFileFlags input2 = new(Console.ReadLine());
+
+            Console.WriteLine(input.CombinationSelector(input.FileSet, input2.FileSet));
             // read the data from excel 
             (List<string>columnHeaderOut, List<string>columnDataOut) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\mentor_customer_OUT.csv");    // read excel and place header and data into a string List
             (List<string>columnHeaderIn, List<string>columnDataIn) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\mentor_customer_IN.csv");    // read 2nd excel
@@ -27,7 +36,7 @@ namespace ReconAuto
 
             /////////////////////HEADER////////////////////////////////////////
             List<string> splitHeadersOut = listMethod.SplitHeaders(columnHeaderOut); // split each header string into a separate elements in a List
-            Dictionary<int, string> headerDictionaryOut = converter.ConvertToDictionary(splitHeadersOut); // convert header List into dictionary entries
+            Dictionary<int, string> headerDictionaryOut = converter.ConvertToDictionary(splitHeadersOut); // convert header List into dictionary separate entries
 
             List<string> splitHeadersIn = listMethod.SplitHeaders(columnHeaderIn); 
             Dictionary<int, string> headerDictionaryIn = converter.ConvertToDictionary(splitHeadersIn);
@@ -35,12 +44,19 @@ namespace ReconAuto
 
 
             ////////////////////HEADER COMPARISON (SIZE)/////////////////////////
-            bool sizeResults = comparator.DictionarySizeComparison(headerDictionaryOut, headerDictionaryIn);
+            // bool sizeResults = comparator.DictionarySizeComparison(headerDictionaryOut, headerDictionaryIn); // size comparison no longer valid
+            // TODO: check headers are correct - hard code headers into a dictionary and compare based on type of file.
+
             ////////////////////HEADER COMPARISON (SIZE) END/////////////////////
      
 
             ////////////////////DATA COMPARISON/////////////////////////
-            comparator.DictionaryDataComparison(dataDictionaryOut, dataDictionaryIn, sizeResults);
+            // comparator.DictionaryDataComparison(dataDictionaryOut, dataDictionaryIn); // additional rules
+            // TODO: Filter out entries where system source something
+            // TODO: Remove entries where no longer at risk = True
+            // TODO: Remove entries where datetime = yesterday <<< not easy wtf
+            // data comparison (above class should work)
+
             ////////////////////DATA COMPARISON END/////////////////////
             
 
