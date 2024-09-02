@@ -101,6 +101,31 @@ namespace ReconAuto
             {12, "Validity End datetime" },
             {13, "Risky Flag" }
         };
+        private readonly Dictionary<int, string> testOUTHeaderValues = new Dictionary<int, string>()
+        {
+            {1, "clientId" },
+            {2, "customerIdHash" },
+            {3, "eventTimestamp" },
+            {4, "eventId" },
+            {5, "eventType" },
+            {6, "birthDate" },
+            {7, "registerDate" },
+            {8, "registeredLanguage" },
+            {9, "country" },
+            {10, "customField" }
+        };
+        private readonly Dictionary<int, string> testINHeaderValues = new Dictionary<int, string>()
+        {
+            {1, "clientId" },
+            {2, "customerIdHash" },
+            {3, "eventTimestamp" },
+            {4, "eventId" },
+            {5, "eventType" },
+            {6, "playBreakStart" },
+            {7, "playBreakEnd" },
+            {8, "durationMinutes" },
+            {9, "reason" }
+        };
 
         public bool DictionarySizeComparison(Dictionary<int, string> dictionaryOne, Dictionary<int, string> dictionaryTwo)
         {
@@ -115,18 +140,20 @@ namespace ReconAuto
         {
             switch (identifier)
             {
-                case "rec 1":
+                case "rec1":
 
                     foreach (var key in dictionaryOne.Keys)
                     {
                         if (dictionaryOne[key] == necctonUpamHeaderValues[key])   // compare the input headers with the hard coded headers
                         {
                             Console.WriteLine("REC 1: Neccton File Return headers are a match");
+                            return true;
                         }
                         else
                         {
                             // Anomaly Detected  
                             Console.WriteLine("REC 1: Anomaly Detected in Neccton HEADERS");
+                            return false;
                         }
                     }
 
@@ -135,26 +162,30 @@ namespace ReconAuto
                         if (dictionaryOne[key] == upamNecctonHeaderValues[key])   // compare the input headers with the hard coded headers 
                         {
                             Console.WriteLine("REC 1: UPAM File Return headers are a match");
+                            return true;
                         }
                         else
                         {
                             // Anomaly Detected  
                             Console.WriteLine("REC 1: Anomaly Detected in UPAM HEADERS");
+                            return false;
                         }
                     }
                     break;
 
-                case "rec 2":
+                case "rec2":
                     foreach (var key in dictionaryOne.Keys)
                     {
                         if (dictionaryOne[key] == necctonSfmcInterHeaderValues[key])   // compare the input headers with the hard coded headers
                         {
                             Console.WriteLine("REC 1: Neccton File Return headers are a match");
+                            return true;
                         }
                         else
                         {
                             // Anomaly Detected  
                             Console.WriteLine("REC 1: Anomaly Detected in Neccton HEADERS");
+                            return false;
                         }
                     }
 
@@ -163,25 +194,29 @@ namespace ReconAuto
                         if (dictionaryOne[key] == sfmcNecctonInterHeaderValues[key])   // compare the input headers with the hard coded headers 
                         {
                             Console.WriteLine("REC 1: SFMC File Return headers are a match");
+                            return true;
                         }
                         else
                         {
                             // Anomaly Detected  
                             Console.WriteLine("REC 1: Anomaly Detected in SFMC HEADERS");
+                            return false;
                         }
                     }
                     break;
-                case "rec 3":
+                case "rec3":
                     foreach (var key in dictionaryOne.Keys)
                     {
                         if (dictionaryOne[key] == necctonSfmcSuppHeaderValues[key])   // compare the input headers with the hard coded headers
                         {
                             Console.WriteLine("REC 1: Neccton File Return headers are a match");
+                            return true;
                         }
                         else
                         {
                             // Anomaly Detected  
                             Console.WriteLine("REC 1: Anomaly Detected in Neccton HEADERS");
+                            return false;
                         }
                     }
 
@@ -190,25 +225,29 @@ namespace ReconAuto
                         if (dictionaryOne[key] == sfmcNecctonSuppHeaderValues[key])   // compare the input headers with the hard coded headers 
                         {
                             Console.WriteLine("REC 1: SFMC File Return headers are a match");
+                            return true;
                         }
                         else
                         {
                             // Anomaly Detected  
                             Console.WriteLine("REC 1: Anomaly Detected in SFMC HEADERS");
+                            return false;
                         }
                     }
                     break;
-                case "rec 4":
+                case "rec4":
                     foreach (var key in dictionaryOne.Keys)
                     {
                         if (dictionaryOne[key] == sfmcDwhSuppHeaderValues[key])   // compare the input headers with the hard coded headers
                         {
                             Console.WriteLine("REC 1: SFMC File Return headers are a match");
+                            
                         }
                         else
                         {
                             // Anomaly Detected  
                             Console.WriteLine("REC 1: Anomaly Detected in SFMC HEADERS");
+                            return false;
                         }
                     }
 
@@ -217,17 +256,51 @@ namespace ReconAuto
                         if (dictionaryOne[key] == dwhSfmcSuppHeaderValues[key])   // compare the input headers with the hard coded headers 
                         {
                             Console.WriteLine("REC 1: DWH File Return headers are a match");
+                            return true;
                         }
                         else
                         {
                             // Anomaly Detected  
                             Console.WriteLine("REC 1: Anomaly Detected in DWH HEADERS");
+                            return false;
                         }
                     }
                     break;
+                case "test":
+                    foreach (var key in dictionaryOne.Keys)
+                    {
+                        if (dictionaryOne[key] == testOUTHeaderValues[key])   // compare the input headers with the hard coded headers
+                        {
+                            Console.WriteLine("test rec: test OUT headers are a match");
+                            
+                        }
+                        else
+                        {
+                            // Anomaly Detected  
+                            Console.WriteLine("REC test: Anomaly Detected in TEST OUT");
+                            return false;
+                        }
+                    }
+
+                    foreach (var key in dictionaryTwo.Keys)
+                    {
+                        if (dictionaryTwo[key] == testINHeaderValues[key])   // compare the input headers with the hard coded headers 
+                        {
+                            Console.WriteLine("test rec: test IN headers are a match");
+                            
+                        }
+                        else
+                        {
+                            // Anomaly Detected  
+                            Console.WriteLine("REC test: Anomaly Detected in TEST IN: @ " + testINHeaderValues[key] + " != " + dictionaryTwo[key]);
+                            return false;
+                        }
+                    }
+                    return true;
                 default:
                     Console.WriteLine(identifier + " unknown scenario");
-                    break;
+                    return false;
+                    
             }
 
             return false;

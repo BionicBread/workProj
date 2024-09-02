@@ -16,18 +16,20 @@ namespace ReconAuto
             Formatter converter = new();
             Comparison comparator = new();
 
-            // Set file flags
+            // Set file flags - output is identifier TODO: replaced with WPF handler
             Console.WriteLine("input file source: SFMC, Neccton or UPAM");
             SetFileFlags input = new (Console.ReadLine());
             
             Console.WriteLine("input 2nd file source: SFMC, Neccton or UPAM");
             SetFileFlags input2 = new(Console.ReadLine());
 
-            Console.WriteLine(input.CombinationSelector(input.FileSet, input2.FileSet));
+            string? indicator = input.CombinationSelector(input.FileSet, input2.FileSet); // set the indicator string
+            Console.WriteLine(indicator); // print the reconcilliation flag
+
             // read the data from excel 
-            (List<string>columnHeaderOut, List<string>columnDataOut) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\mentor_customer_OUT.csv");    // read excel and place header and data into a string List
-            (List<string>columnHeaderIn, List<string>columnDataIn) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\mentor_customer_IN.csv");    // read 2nd excel
-            
+            (List<string>columnHeaderOut, List<string>columnDataOut) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\testIN.csv");    // read excel and place header and data into a string List
+            (List<string>columnHeaderIn, List<string>columnDataIn) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\testOUT.csv");    // read 2nd excel
+            // 
             //////////////////////DATA//////////////////////////////////////
             Dictionary<int, string> dataDictionaryOut = converter.ConvertToDictionary(columnDataOut); // convert data from list into a dictionary data structure
             Dictionary<int, string> dataDictionaryIn = converter.ConvertToDictionary(columnDataIn); // convert data from list into a dictionary data structure
@@ -45,6 +47,7 @@ namespace ReconAuto
 
             ////////////////////HEADER COMPARISON (SIZE)/////////////////////////
             // bool sizeResults = comparator.DictionarySizeComparison(headerDictionaryOut, headerDictionaryIn); // size comparison no longer valid
+            Console.WriteLine("Do headers match??: " + comparator.DictionaryHeaderComparison(headerDictionaryIn, headerDictionaryOut, indicator));
             // TODO: check headers are correct - hard code headers into a dictionary and compare based on type of file.
 
             ////////////////////HEADER COMPARISON (SIZE) END/////////////////////

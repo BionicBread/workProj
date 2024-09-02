@@ -22,19 +22,39 @@
                 {
                     case "Neccton":
                         _fileFlag = value;
+
+                        break;
+                    case "Neccton Sup":
+                        _fileFlag = value;
                         
+                        break;
+                    case "Neccton Int":
+                        _fileFlag = value;
+
                         break;
                     case "UPAM":
                         _fileFlag = value;
                         
                         break;
 
-                    case "SFMC":
+                    case "SFMC Sup":
+                        _fileFlag = value;
+
+                        break;
+                    case "SFMC Int":
                         _fileFlag = value;
                         
                         break;
+                    case "SFMC":
+                        _fileFlag = value;
+
+                        break;
                     case "DWH":
                         _fileFlag = value;
+                        break;
+                    case "test":
+                        _fileFlag = value;
+
                         break;
                     default:
                         Console.WriteLine("Not defined");
@@ -47,16 +67,25 @@
         {
             if (fileFlag == "Neccton" &&  fileFlag2 == "UPAM" || fileFlag == "UPAM" && fileFlag2 == "Neccton")
             {
-                return "Option 1";
+                return "rec1";
             }
-            else if (fileFlag == "Neccton" && fileFlag2 == "SFMC" || fileFlag == "SFMC" && fileFlag2 == "Neccton")
+            else if (fileFlag == "Neccton Int" && fileFlag2 == "SFMC Int" || fileFlag == "SFMC Int" && fileFlag2 == "Neccton Int")
             {
-                return "Option 2";
+                return "rec2";
+            }
+            else if (fileFlag == "Neccton Sup" && fileFlag2 == "SFMC Sup" || fileFlag == "SFMC Sup" && fileFlag2 == "Neccton Sup")
+            {
+                return "rec2";
             }
             else if (fileFlag == "SFMC" && fileFlag2 == "DWH" || fileFlag == "DWH" && fileFlag2 == "SFMC")
             {
-                return "Option 3";
+                return "rec4";
             }
+            else if (fileFlag == "test" && fileFlag2 == "test" || fileFlag == "test" && fileFlag2 == "test")
+            {
+                return "test";
+            }
+
             return "File Flags incorrect";
         }
     }
