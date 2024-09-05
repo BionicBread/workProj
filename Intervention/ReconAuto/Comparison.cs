@@ -318,7 +318,9 @@ namespace ReconAuto
                     else
                     {
                         // Anomaly Detected  
-                        Console.WriteLine("Anomaly Detected");
+                        Console.WriteLine("Error detector in entry " + key);
+                        ErrorFinder errorHandler = new ErrorFinder();
+                        errorHandler.ErrorDetector(dictionaryOne[key], dictionaryTwo[key]);
                     }
                 }
                 Console.WriteLine("Number of entries is " + dictionaryOne.Count);

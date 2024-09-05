@@ -6,7 +6,7 @@ namespace ReconAuto
     public class Formatter
     {
 
-        public string RemoveExtraSemiColon(string input)
+        public string RemoveExtraSemiColon(string input) // remove semi colons in a string
         {
             StringBuilder sb = new StringBuilder();
 
@@ -38,7 +38,8 @@ namespace ReconAuto
             Dictionary<int,string> targetDictionary = new Dictionary<int,string>();
             foreach (string n in dataList) 
             {
-                targetDictionary.Add(keyCounter, n);
+                
+                targetDictionary.Add(keyCounter, RemoveExtraSemiColon(n));
                 keyCounter++;
             }
 

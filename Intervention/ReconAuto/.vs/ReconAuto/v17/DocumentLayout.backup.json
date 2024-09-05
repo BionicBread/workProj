@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\listmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:listmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\setfileflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:setfileflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\datafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:datafilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\datacomparisonselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:datacomparisonselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\errorfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:errorfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\listmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:listmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\formatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,54 +38,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "DataComparisonSelector.cs",
+              "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\DataComparisonSelector.cs",
+              "RelativeDocumentMoniker": "DataComparisonSelector.cs",
+              "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\DataComparisonSelector.cs",
+              "RelativeToolTip": "DataComparisonSelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T10:12:27.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorFinder.cs",
+              "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\ErrorFinder.cs",
+              "RelativeDocumentMoniker": "ErrorFinder.cs",
+              "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\ErrorFinder.cs",
+              "RelativeToolTip": "ErrorFinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:44:32.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SetFileFlags.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\SetFileFlags.cs",
               "RelativeDocumentMoniker": "SetFileFlags.cs",
               "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\SetFileFlags.cs",
               "RelativeToolTip": "SetFileFlags.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowFgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T13:56:31.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Formatter.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\Formatter.cs",
               "RelativeDocumentMoniker": "Formatter.cs",
               "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\Formatter.cs",
               "RelativeToolTip": "Formatter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T07:55:12.623Z"
+              "WhenOpened": "2024-08-28T07:55:12.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataFilter.cs",
-              "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\DataFilter.cs",
-              "RelativeDocumentMoniker": "DataFilter.cs",
-              "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\DataFilter.cs",
-              "RelativeToolTip": "DataFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T07:55:12.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ListMethod.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\ListMethod.cs",
               "RelativeDocumentMoniker": "ListMethod.cs",
               "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\ListMethod.cs",
               "RelativeToolTip": "ListMethod.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAD4v1QAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwGYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T07:55:13.573Z",
               "EditorCaption": ""
@@ -94,20 +113,20 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T07:55:13.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Comparison.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\Comparison.cs",
               "RelativeDocumentMoniker": "Comparison.cs",
               "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\Comparison.cs",
               "RelativeToolTip": "Comparison.cs",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAowCoBAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIBAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T07:55:12.657Z",
               "EditorCaption": ""

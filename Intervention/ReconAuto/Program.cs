@@ -24,11 +24,16 @@ namespace ReconAuto
             SetFileFlags input2 = new(Console.ReadLine());
 
             string? indicator = input.CombinationSelector(input.FileSet, input2.FileSet); // set the indicator string
-            Console.WriteLine(indicator); // print the reconcilliation flag
+            //Console.WriteLine(indicator); // testing print the reconcilliation flag
 
             // read the data from excel 
-            (List<string>columnHeaderOut, List<string>columnDataOut) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\testIN.csv");    // read excel and place header and data into a string List
-            (List<string>columnHeaderIn, List<string>columnDataIn) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\testOUT.csv");    // read 2nd excel
+            //string fileURL = Console.ReadLine();
+            //string file2URL = Console.ReadLine();
+            //(List<string> columnHeaderOut, List<string> columnDataOut) = listMethod.ReadExcelData(fileURL);
+            //(List<string> columnHeaderIn, List<string> columnDataIn) = listMethod.ReadExcelData(file2URL);
+
+            (List<string> columnHeaderOut, List<string> columnDataOut) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\testIN.csv");    // read excel and place header and data into a string List
+            (List<string> columnHeaderIn, List<string> columnDataIn) = listMethod.ReadExcelData(@"C:\Users\Chris\Documents\Code\tiQtoQ\Intervention\ReconAuto\dummy data\noAnomaly\testOUT.csv");    // read 2nd excel
             // 
             //////////////////////DATA//////////////////////////////////////
             Dictionary<int, string> dataDictionaryOut = converter.ConvertToDictionary(columnDataOut); // convert data from list into a dictionary data structure
@@ -54,7 +59,7 @@ namespace ReconAuto
      
 
             ////////////////////DATA COMPARISON/////////////////////////
-            // comparator.DictionaryDataComparison(dataDictionaryOut, dataDictionaryIn); // additional rules
+            comparator.DictionaryDataComparison(dataDictionaryOut, dataDictionaryIn); // additional rules
             // TODO: Filter out entries where system source something
             // TODO: Remove entries where no longer at risk = True
             // TODO: Remove entries where datetime = yesterday <<< not easy wtf
