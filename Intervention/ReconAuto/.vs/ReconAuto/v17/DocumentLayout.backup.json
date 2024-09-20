@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\setfileflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:setfileflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\datacomparisonselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:datacomparisonselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:comparison.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\errorfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:errorfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\datacomparisonselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:datacomparisonselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\setfileflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|solutionrelative:setfileflags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{801CCF84-70D6-410C-BC68-CC35AD53E274}|ReconAuto.csproj|f:\\tiqtoq\\workproj\\intervention\\reconauto\\listmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DataComparisonSelector.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\DataComparisonSelector.cs",
               "RelativeDocumentMoniker": "DataComparisonSelector.cs",
@@ -54,19 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ErrorFinder.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\ErrorFinder.cs",
               "RelativeDocumentMoniker": "ErrorFinder.cs",
               "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\ErrorFinder.cs",
               "RelativeToolTip": "ErrorFinder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T09:44:32.382Z"
+              "WhenOpened": "2024-09-02T09:44:32.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SetFileFlags.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\SetFileFlags.cs",
               "RelativeDocumentMoniker": "SetFileFlags.cs",
@@ -102,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -115,15 +116,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Comparison.cs",
               "DocumentMoniker": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\Comparison.cs",
               "RelativeDocumentMoniker": "Comparison.cs",
               "ToolTip": "F:\\tiQtoQ\\workProj\\Intervention\\ReconAuto\\Comparison.cs",
               "RelativeToolTip": "Comparison.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIBAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAgwEUBAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T07:55:12.657Z"
+              "WhenOpened": "2024-08-28T07:55:12.657Z",
+              "EditorCaption": ""
             }
           ]
         }
